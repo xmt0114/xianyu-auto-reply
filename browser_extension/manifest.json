@@ -1,0 +1,59 @@
+{
+    "manifest_version": 3,
+    "name": "闲鱼电影票自动化助手",
+    "version": "1.0.0",
+    "description": "自动回复、识别影票截图、自动改价、自动发货",
+    "permissions": [
+        "storage",
+        "webRequest",
+        "scripting",
+        "activeTab"
+    ],
+    "host_permissions": [
+        "*://*.goofish.com/*",
+        "*://*.taobao.com/*",
+        "*://wss-goofish.dingtalk.com/*",
+        "*://api.ocr.space/*"
+    ],
+    "background": {
+        "service_worker": "background/service_worker.js"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*.goofish.com/*",
+                "*://z.taobao.com/*"
+            ],
+            "js": [
+                "content/content.js"
+            ],
+            "run_at": "document_end",
+            "world": "ISOLATED"
+        },
+        {
+            "matches": [
+                "*://*.goofish.com/*"
+            ],
+            "js": [
+                "content/inject_loader.js"
+            ],
+            "run_at": "document_start",
+            "world": "ISOLATED"
+        }
+    ],
+    "action": {
+        "default_popup": "popup/index.html",
+        "default_title": "闲鱼助手设置"
+    },
+    "web_accessible_resources": [
+        {
+            "resources": [
+                "inject/main.js",
+                "assets/*"
+            ],
+            "matches": [
+                "*://*.goofish.com/*"
+            ]
+        }
+    ]
+}

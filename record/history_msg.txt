@@ -1,0 +1,1812 @@
+{
+  "headers": {
+    "dt": "j",
+    "mid": "1161770269288878 0",
+    "sid": "21042f0b69842a6817851afd8210d0649c062f73eab2"
+  },
+  "code": 200,
+  "body": {
+    "nextCursor": 0,
+    "userConvs": [
+      {
+        "singleChatUserConversation": {
+          "visible": 1,
+          "modifyTime": 1770267785385,
+          "redPoint": 0,
+          "joinTime": 1770267521697,
+          "lastMessage": {
+            "readStatus": 2,
+            "userExtension": {
+              "needPush": "true"
+            },
+            "recallFeature": {
+              "showRecallStatusSetting": 0
+            },
+            "message": {
+              "extension": {
+                "_platform": "web",
+                "reminderContent": "亲，请将美团、猫眼或淘票票选座截图发过来，系统自动识别报价~ （如系统已报价，请忽略本消息）",
+                "_appVersion": "1.0",
+                "reminderNotice": "发来一条新消息",
+                "senderUserType": "0",
+                "detailNotice": "亲，请将美团、猫眼或淘票票选座截图发过来，系统自动识别报价~ （如系统已报价，请忽略本消息）",
+                "senderUserId": "2486333616",
+                "extJson": {
+                  "quickReply": "1",
+                  "messageId": "91f67c33d9494318a11526931205cb49",
+                  "tag": "u"
+                },
+                "sessionType": "1",
+                "reminderUrl": "fleamarket://message_chat?itemId=1019028210386&peerUserId=2486333616&sid=57974814581&messageId=91f67c33d9494318a11526931205cb49&adv=no",
+                "bizTag": {
+                  "sourceId": "S:1",
+                  "messageId": "91f67c33d9494318a11526931205cb49"
+                },
+                "reminderTitle": "全国特价电影票小帮手"
+              },
+              "messageId": "3964461735243.PNM",
+              "unreadCount": 0,
+              "msgReadStatusSetting": 1,
+              "createAt": 1770267526941,
+              "content": {
+                "custom": {
+                  "summary": "亲，请将美团、猫眼或淘票票选座截图发过来，系统自动识别报价~ （如系统已报价，请忽略本消息）",
+                  "data": "eyJjb250ZW50VHlwZSI6MSwidGV4dCI6eyJ0ZXh0Ijoi5Lqy77yM6K+35bCG576O5Zui44CB54yr55y85oiW5reY56Wo56Wo6YCJ5bqn5oiq5Zu+5Y+R6L+H5p2l77yM57O757uf6Ieq5Yqo6K+G5Yir5oql5Lu3fiDvvIjlpoLns7vnu5/lt7LmiqXku7fvvIzor7flv73nlaXmnKzmtojmga/vvIkifX0=",
+                  "title": "",
+                  "type": 1,
+                  "degrade": ""
+                },
+                "contentType": 101
+              },
+              "mtags": {},
+              "conversationType": 1,
+              "displayStyle": 0,
+              "redPointPolicy": 0,
+              "recordStatus": 1,
+              "searchableContent": {
+                "summary": ""
+              },
+              "sender": {
+                "uid": "2486333616@goofish",
+                "tag": 0
+              },
+              "receivers": [],
+              "receiverCount": 2,
+              "cid": "57974814581@goofish"
+            },
+            "msgStatus": 1
+          },
+          "singleChatConversation": {
+            "extension": {
+              "squadId_2486333616": "1019028210386",
+              "extUserType": "0",
+              "itemTitle": "【低价出电影票电子券】万达、中影、金逸、横店、星轶、CGV、",
+              "extUserId": "845151128",
+              "itemMainPic": "https://img.alicdn.com/bao/uploaded/i1/2486333616/O1CN01BWB6wS1caBIOWQS0e_!!4611686018427383984-0-xy_item.jpg",
+              "squadName_845151128": "电影票",
+              "ownerUserType": "0",
+              "squadName_2486333616": "【低价出电影票电子券】万达、中影、金逸、横店、星轶、CGV、",
+              "itemId": "1019028210386",
+              "itemFeatures": {
+                "idle_cat_leaf": "201418301"
+              },
+              "itemSellerId": "2486333616",
+              "squadId_845151128": "201418301",
+              "ownerUserId": "2486333616"
+            },
+            "pairFirst": "845151128@goofish",
+            "bizType": "1",
+            "msgReadStatusSetting": 1,
+            "createAt": 1770267521000,
+            "cid": "57974814581@goofish",
+            "pairSecond": "2486333616@goofish"
+          },
+          "topRank": 0,
+          "muteNotification": 0,
+          "user_extension": {}
+        },
+        "type": 1
+      },
+      {
+        "singleChatUserConversation": {
+          "visible": 1,
+          "modifyTime": 1770267502814,
+          "redPoint": 0,
+          "joinTime": 1770267204601,
+          "lastMessage": {
+            "readStatus": 2,
+            "userExtension": {
+              "needPush": "true"
+            },
+            "recallFeature": {
+              "showRecallStatusSetting": 0
+            },
+            "message": {
+              "extension": {
+                "reminderContent": "[图片]",
+                "_appVersion": "1.0",
+                "senderUserId": "1815411756",
+                "extJson": {
+                  "quickReply": "1",
+                  "messageId": "c6abae625bcc45479e652b5167665e3e",
+                  "tag": "u"
+                },
+                "_platform": "web",
+                "reminderNotice": "发来一条新消息",
+                "senderUserType": "0",
+                "detailNotice": "[图片]",
+                "port": "8a28",
+                "clientIp": "2409",
+                "sessionType": "1",
+                "reminderUrl": "fleamarket://message_chat?itemId=993996631652&peerUserId=1815411756&sid=58002053973&messageId=c6abae625bcc45479e652b5167665e3e&adv=no",
+                "bizTag": {
+                  "sourceId": "S:1",
+                  "messageId": "c6abae625bcc45479e652b5167665e3e"
+                },
+                "reminderTitle": "票务小Y"
+              },
+              "messageId": "3954746284559.PNM",
+              "unreadCount": 0,
+              "msgReadStatusSetting": 1,
+              "createAt": 1770267217390,
+              "content": {
+                "custom": {
+                  "summary": "[图片]",
+                  "data": "eyJjb250ZW50VHlwZSI6MiwiaW1hZ2UiOnsicGljcyI6W3siaGVpZ2h0Ijo1ODYsInR5cGUiOjAsInVybCI6Imh0dHBzOi8vaW1nLmFsaWNkbi5jb20vaW1nZXh0cmEvaTEvMTgxNTQxMTc1Ni9PMUNOMDFlY3J6eU8xT3FJYzZBZWVmU18hITE4MTU0MTE3NTYtMi14eV9jaGF0LnBuZyIsIndpZHRoIjo4MjR9XSwic3VtbWFyeSI6IiJ9fQ==",
+                  "title": "",
+                  "type": 2,
+                  "degrade": ""
+                },
+                "contentType": 101
+              },
+              "mtags": {},
+              "conversationType": 1,
+              "displayStyle": 0,
+              "redPointPolicy": 0,
+              "recordStatus": 1,
+              "searchableContent": {
+                "summary": ""
+              },
+              "sender": {
+                "uid": "1815411756@goofish",
+                "tag": 0
+              },
+              "receivers": [],
+              "receiverCount": 2,
+              "cid": "58002053973@goofish"
+            },
+            "msgStatus": 1
+          },
+          "singleChatConversation": {
+            "extension": {
+              "extUserType": "0",
+              "itemTitle": "《疯狂动物城2》电影票代买15.9元起一张",
+              "extUserId": "845151128",
+              "itemMainPic": "https://img.alicdn.com/bao/uploaded/i3/O1CN01ZUn1MK1OqIb3d5yfr_!!4611686018427386924-0-fleamarket.jpg",
+              "squadName_845151128": "电影票",
+              "ownerUserType": "0",
+              "itemId": "993996631652",
+              "itemFeatures": {
+                "idle_cat_leaf": "201418301"
+              },
+              "itemSellerId": "1815411756",
+              "squadId_845151128": "201418301",
+              "squadName_1815411756": "《疯狂动物城2》电影票代买15.9元起一张",
+              "ownerUserId": "1815411756",
+              "squadId_1815411756": "993996631652"
+            },
+            "pairFirst": "845151128@goofish",
+            "bizType": "1",
+            "msgReadStatusSetting": 1,
+            "createAt": 1770267204000,
+            "cid": "58002053973@goofish",
+            "pairSecond": "1815411756@goofish"
+          },
+          "topRank": 0,
+          "muteNotification": 0,
+          "user_extension": {}
+        },
+        "type": 1
+      },
+      {
+        "singleChatUserConversation": {
+          "visible": 1,
+          "modifyTime": 1770266829114,
+          "redPoint": 0,
+          "joinTime": 1770265436915,
+          "lastMessage": {
+            "readStatus": 2,
+            "userExtension": {
+              "needPush": "false"
+            },
+            "recallFeature": {
+              "showRecallStatusSetting": 0
+            },
+            "message": {
+              "extension": {
+                "reminderContent": "[图片]",
+                "_appVersion": "7.24.80",
+                "senderUserId": "845151128",
+                "umid": "WV6009944658c4333202107b0b1edf224",
+                "utdid": "ZYzQNiFKBx8DAB0Bbeu/NJEB",
+                "extJson": {
+                  "quickReply": "1",
+                  "utdid": "ZYzQNiFKBx8DAB0Bbeu/NJEB",
+                  "messageId": "934e5f3be183445c85ac38b4d8f08a76",
+                  "umidToken": "icoBuslLPC5cmgKcJ/riV8e5eB6B9vzy",
+                  "tag": "u"
+                },
+                "umidToken": "icoBuslLPC5cmgKcJ/riV8e5eB6B9vzy",
+                "_platform": "android",
+                "reminderNotice": "发来一条新消息",
+                "senderUserType": "0",
+                "detailNotice": "[图片]",
+                "port": "38922",
+                "clientIp": "113.84.80.167",
+                "sessionType": "1",
+                "reminderUrl": "fleamarket://message_chat?itemId=1020585288501&peerUserId=845151128&sid=58069988457&messageId=934e5f3be183445c85ac38b4d8f08a76&adv=no",
+                "bizTag": {
+                  "sourceId": "S:1",
+                  "messageId": "934e5f3be183445c85ac38b4d8f08a76"
+                },
+                "reminderTitle": "影票闪定通"
+              },
+              "messageId": "3964441730275.PNM",
+              "unreadCount": 0,
+              "msgReadStatusSetting": 1,
+              "createAt": 1770266828923,
+              "content": {
+                "custom": {
+                  "summary": "[图片]",
+                  "data": "eyJhdFVzZXJzIjpbXSwiY29udGVudFR5cGUiOjIsImltYWdlIjp7InBpY3MiOlt7ImhlaWdodCI6MTkyMCwidHlwZSI6MCwidXJsIjoiaHR0cHM6Ly9pbWcuYWxpY2RuLmNvbS9pbWdleHRyYS9pMi84NDUxNTExMjgvTzFDTjAxVnFZWTAwMUtDZnNzZGtMMHlfISE4NDUxNTExMjgtMC14eV9jaGF0LmpwZyIsIndpZHRoIjo4NjN9XX19",
+                  "title": "",
+                  "type": 2,
+                  "degrade": ""
+                },
+                "contentType": 101
+              },
+              "mtags": {},
+              "conversationType": 1,
+              "displayStyle": 0,
+              "redPointPolicy": 0,
+              "recordStatus": 1,
+              "searchableContent": {
+                "summary": ""
+              },
+              "sender": {
+                "uid": "845151128@goofish",
+                "tag": 0
+              },
+              "receivers": [],
+              "receiverCount": 2,
+              "cid": "58069988457@goofish"
+            },
+            "msgStatus": 1
+          },
+          "singleChatConversation": {
+            "extension": {
+              "extUserType": "0",
+              "itemTitle": "电影票代买9.8元一张起，全国影城特价代下，万达、中影、金逸",
+              "extUserId": "845151128",
+              "itemMainPic": "https://img.alicdn.com/bao/uploaded/i1/2220793898155/O1CN018qpHFX2A732PRcJZv_!!4611686018427380907-0-xy_item.jpg",
+              "squadName_845151128": "电影票",
+              "ownerUserType": "0",
+              "squadName_2220793898155": "电影票代买9.8元一张起，全国影城特价代下，万达、中影、金逸",
+              "itemId": "1020585288501",
+              "itemFeatures": {
+                "idle_cat_leaf": "201418301"
+              },
+              "itemSellerId": "2220793898155",
+              "squadId_845151128": "201418301",
+              "ownerUserId": "2220793898155",
+              "squadId_2220793898155": "1020585288501"
+            },
+            "pairFirst": "845151128@goofish",
+            "bizType": "1",
+            "msgReadStatusSetting": 1,
+            "createAt": 1770265436000,
+            "cid": "58069988457@goofish",
+            "pairSecond": "2220793898155@goofish"
+          },
+          "topRank": 0,
+          "muteNotification": 0,
+          "user_extension": {}
+        },
+        "type": 1
+      },
+      {
+        "singleChatUserConversation": {
+          "visible": 1,
+          "modifyTime": 1770265181839,
+          "redPoint": 0,
+          "joinTime": 1770262533324,
+          "lastMessage": {
+            "readStatus": 2,
+            "userExtension": {
+              "needPush": "true"
+            },
+            "recallFeature": {
+              "showRecallStatusSetting": 0
+            },
+            "message": {
+              "extension": {
+                "_platform": "web",
+                "reminderContent": "宝宝，买票请先发送选座截图（包含影片、场次、影院和座位）",
+                "_appVersion": "1.0",
+                "reminderNotice": "发来一条新消息",
+                "senderUserType": "0",
+                "detailNotice": "宝宝，买票请先发送选座截图（包含影片、场次、影院和座位）",
+                "senderUserId": "2219849810865",
+                "extJson": {
+                  "quickReply": "1",
+                  "messageId": "335b9bf256da44c684ff3eb9b8b6970d",
+                  "tag": "u"
+                },
+                "sessionType": "1",
+                "reminderUrl": "fleamarket://message_chat?itemId=1007568018073&peerUserId=2219849810865&sid=57959167546&messageId=335b9bf256da44c684ff3eb9b8b6970d&adv=no",
+                "bizTag": {
+                  "sourceId": "S:1",
+                  "messageId": "335b9bf256da44c684ff3eb9b8b6970d"
+                },
+                "reminderTitle": "京享优惠"
+              },
+              "messageId": "3964291588223.PNM",
+              "unreadCount": 0,
+              "msgReadStatusSetting": 1,
+              "createAt": 1770262540365,
+              "content": {
+                "custom": {
+                  "summary": "宝宝，买票请先发送选座截图（包含影片、场次、影院和座位）",
+                  "data": "eyJjb250ZW50VHlwZSI6MSwidGV4dCI6eyJ0ZXh0Ijoi5a6d5a6d77yM5Lmw56Wo6K+35YWI5Y+R6YCB6YCJ5bqn5oiq5Zu+77yI5YyF5ZCr5b2x54mH44CB5Zy65qyh44CB5b2x6Zmi5ZKM5bqn5L2N77yJIn19",
+                  "title": "",
+                  "type": 1,
+                  "degrade": ""
+                },
+                "contentType": 101
+              },
+              "mtags": {},
+              "conversationType": 1,
+              "displayStyle": 0,
+              "redPointPolicy": 0,
+              "recordStatus": 1,
+              "searchableContent": {
+                "summary": ""
+              },
+              "sender": {
+                "uid": "2219849810865@goofish",
+                "tag": 0
+              },
+              "receivers": [],
+              "receiverCount": 2,
+              "cid": "57959167546@goofish"
+            },
+            "msgStatus": 1
+          },
+          "singleChatConversation": {
+            "extension": {
+              "extUserType": "0",
+              "itemTitle": "《寻秦记》电影票代买9.9元起，全国影城特价代下、各大影院优",
+              "squadName_2219849810865": "《寻秦记》电影票代买9.9元起，全国影城特价代下、各大影院优",
+              "extUserId": "845151128",
+              "itemMainPic": "https://img.alicdn.com/bao/uploaded/i3/2219849810865/O1CN01l4IV2n1IGDi5Obf1p_!!4611686018427380657-0-xy_item.jpg",
+              "squadName_845151128": "电影票",
+              "ownerUserType": "0",
+              "itemId": "1007568018073",
+              "itemFeatures": {
+                "idle_cat_leaf": "201418301"
+              },
+              "itemSellerId": "2219849810865",
+              "squadId_845151128": "201418301",
+              "squadId_2219849810865": "1007568018073",
+              "ownerUserId": "2219849810865"
+            },
+            "pairFirst": "845151128@goofish",
+            "bizType": "1",
+            "msgReadStatusSetting": 1,
+            "createAt": 1770262533000,
+            "cid": "57959167546@goofish",
+            "pairSecond": "2219849810865@goofish"
+          },
+          "topRank": 0,
+          "muteNotification": 0,
+          "user_extension": {}
+        },
+        "type": 1
+      },
+      {
+        "singleChatUserConversation": {
+          "visible": 1,
+          "modifyTime": 1770265180433,
+          "redPoint": 0,
+          "joinTime": 1770262173592,
+          "lastMessage": {
+            "readStatus": 2,
+            "userExtension": {
+              "needPush": "true"
+            },
+            "recallFeature": {
+              "showRecallStatusSetting": 0
+            },
+            "message": {
+              "extension": {
+                "reminderContent": "[图片]",
+                "_appVersion": "1.0",
+                "senderUserId": "1646766530",
+                "extJson": {
+                  "quickReply": "1",
+                  "messageId": "d40ebaa2bd3042a599d97aeaddfe2c40",
+                  "tag": "u"
+                },
+                "_platform": "web",
+                "reminderNotice": "发来一条新消息",
+                "senderUserType": "0",
+                "detailNotice": "[图片]",
+                "port": "3a5",
+                "clientIp": "240e",
+                "sessionType": "1",
+                "reminderUrl": "fleamarket://message_chat?itemId=866543688151&peerUserId=1646766530&sid=58196026265&messageId=d40ebaa2bd3042a599d97aeaddfe2c40&adv=no",
+                "bizTag": {
+                  "sourceId": "S:1",
+                  "messageId": "d40ebaa2bd3042a599d97aeaddfe2c40"
+                },
+                "reminderTitle": "好时电影票务"
+              },
+              "messageId": "3963689491142.PNM",
+              "unreadCount": 0,
+              "msgReadStatusSetting": 1,
+              "createAt": 1770262195812,
+              "content": {
+                "custom": {
+                  "summary": "[图片]",
+                  "data": "eyJjb250ZW50VHlwZSI6MiwiaW1hZ2UiOnsicGljcyI6W3siaGVpZ2h0IjoxMDI0LCJ0eXBlIjowLCJ1cmwiOiJodHRwczovL2ltZy5hbGljZG4uY29tL2ltZ2V4dHJhL2kyLzE2NDY3NjY1MzAvTzFDTjAxb28yRmVjMXk2blFvSWhNMFFfISExNjQ2NzY2NTMwLTAteHlfY2hhdC5qcGciLCJ3aWR0aCI6MTAyNH1dLCJzdW1tYXJ5IjoiIn19",
+                  "title": "",
+                  "type": 2,
+                  "degrade": ""
+                },
+                "contentType": 101
+              },
+              "mtags": {},
+              "conversationType": 1,
+              "displayStyle": 0,
+              "redPointPolicy": 0,
+              "recordStatus": 1,
+              "searchableContent": {
+                "summary": ""
+              },
+              "sender": {
+                "uid": "1646766530@goofish",
+                "tag": 0
+              },
+              "receivers": [],
+              "receiverCount": 2,
+              "cid": "58196026265@goofish"
+            },
+            "msgStatus": 1
+          },
+          "singleChatConversation": {
+            "extension": {
+              "squadId_1646766530": "866543688151",
+              "extUserType": "0",
+              "itemTitle": "电影票 9.9元起一张，特价电影票、优惠电影票低价代购，全国",
+              "extUserId": "845151128",
+              "itemMainPic": "https://img.alicdn.com/bao/uploaded/i3/O1CN01aYO3Z01y6nKfYhUxn_!!4611686018427382210-0-fleamarket.jpg",
+              "squadName_845151128": "电影票",
+              "ownerUserType": "0",
+              "itemId": "866543688151",
+              "itemFeatures": {
+                "idle_cat_leaf": "201418301"
+              },
+              "itemSellerId": "1646766530",
+              "squadId_845151128": "201418301",
+              "ownerUserId": "1646766530",
+              "squadName_1646766530": "电影票 9.9元起一张，特价电影票、优惠电影票低价代购，全国"
+            },
+            "pairFirst": "845151128@goofish",
+            "bizType": "1",
+            "msgReadStatusSetting": 1,
+            "createAt": 1770262173000,
+            "cid": "58196026265@goofish",
+            "pairSecond": "1646766530@goofish"
+          },
+          "topRank": 0,
+          "muteNotification": 0,
+          "user_extension": {}
+        },
+        "type": 1
+      },
+      {
+        "singleChatUserConversation": {
+          "visible": 1,
+          "modifyTime": 1770260543533,
+          "redPoint": 0,
+          "joinTime": 1503548823000,
+          "singleChatConversation": {
+            "extension": {
+              "$impaas_reserved$_lite_conv": "1",
+              "VULCAN_CREATE_TIME": "1731707999019",
+              "extUserType": "10",
+              "extUserId": "100",
+              "ownerUserId": "845151128",
+              "VULCAN_IMPORT_TIME": "1731707999026",
+              "ownerUserType": "0"
+            },
+            "pairFirst": "845151128@goofish",
+            "bizType": "3",
+            "msgReadStatusSetting": 0,
+            "createAt": 1503548823000,
+            "cid": "1037504267@goofish",
+            "pairSecond": "0@goofish"
+          },
+          "topRank": 0,
+          "muteNotification": 0,
+          "user_extension": {}
+        },
+        "type": 1
+      },
+      {
+        "singleChatUserConversation": {
+          "visible": 1,
+          "modifyTime": 1770196114820,
+          "redPoint": 0,
+          "joinTime": 1677465775000,
+          "singleChatConversation": {
+            "extension": {
+              "$impaas_reserved$_lite_conv": "1",
+              "VULCAN_CREATE_TIME": "1731707997026",
+              "extUserType": "10",
+              "extUserId": "1500",
+              "ownerUserId": "845151128",
+              "VULCAN_IMPORT_TIME": "1731707997032",
+              "ownerUserType": "0"
+            },
+            "pairFirst": "845151128@goofish",
+            "bizType": "25",
+            "msgReadStatusSetting": 0,
+            "createAt": 1677465775000,
+            "cid": "27912044107@goofish",
+            "pairSecond": "0@goofish"
+          },
+          "topRank": 0,
+          "muteNotification": 0,
+          "user_extension": {}
+        },
+        "type": 1
+      },
+      {
+        "singleChatUserConversation": {
+          "visible": 1,
+          "modifyTime": 1770183377308,
+          "redPoint": 0,
+          "joinTime": 1770183347405,
+          "lastMessage": {
+            "readStatus": 2,
+            "userExtension": {
+              "needPush": "true"
+            },
+            "recallFeature": {
+              "showRecallStatusSetting": 0
+            },
+            "message": {
+              "extension": {
+                "reminderContent": "[图片]",
+                "_appVersion": "1.0",
+                "senderUserId": "2220791634637",
+                "extJson": {
+                  "quickReply": "1",
+                  "messageId": "ab6db647b4414bb999d26131296bc7a1",
+                  "tag": "u"
+                },
+                "_platform": "web",
+                "reminderNotice": "发来一条新消息",
+                "senderUserType": "0",
+                "detailNotice": "[图片]",
+                "port": "824e",
+                "clientIp": "2408",
+                "sessionType": "1",
+                "reminderUrl": "fleamarket://message_chat?itemId=1006665767522&peerUserId=2220791634637&sid=57945118443&messageId=ab6db647b4414bb999d26131296bc7a1&adv=no",
+                "bizTag": {
+                  "sourceId": "S:1",
+                  "messageId": "ab6db647b4414bb999d26131296bc7a1"
+                },
+                "reminderTitle": "海洋票务"
+              },
+              "messageId": "3962849739500.PNM",
+              "unreadCount": 0,
+              "msgReadStatusSetting": 1,
+              "createAt": 1770183376875,
+              "content": {
+                "custom": {
+                  "summary": "[图片]",
+                  "data": "eyJjb250ZW50VHlwZSI6MiwiaW1hZ2UiOnsicGljcyI6W3siaGVpZ2h0Ijo2MjMsInR5cGUiOjAsInVybCI6Imh0dHBzOi8vaW1nLmFsaWNkbi5jb20vaW1nZXh0cmEvaTQvMjIyMDc5MTYzNDYzNy9PMUNOMDFyandsYXQxazduZzlITGJCZl8hITIyMjA3OTE2MzQ2MzctMi14eV9jaGF0LnBuZyIsIndpZHRoIjo2NzZ9XSwic3VtbWFyeSI6IiJ9fQ==",
+                  "title": "",
+                  "type": 2,
+                  "degrade": ""
+                },
+                "contentType": 101
+              },
+              "mtags": {},
+              "conversationType": 1,
+              "displayStyle": 0,
+              "redPointPolicy": 0,
+              "recordStatus": 1,
+              "searchableContent": {
+                "summary": ""
+              },
+              "sender": {
+                "uid": "2220791634637@goofish",
+                "tag": 0
+              },
+              "receivers": [],
+              "receiverCount": 2,
+              "cid": "57945118443@goofish"
+            },
+            "msgStatus": 1
+          },
+          "singleChatConversation": {
+            "extension": {
+              "extUserType": "0",
+              "itemTitle": "《寻秦记》电影票代买，低至9.9元起限时低价代买电影票，出票",
+              "extUserId": "845151128",
+              "squadName_2220791634637": "《寻秦记》电影票代买，低至9.9元起限时低价代买电影票，出票",
+              "itemMainPic": "https://img.alicdn.com/bao/uploaded/i2/2220791634637/O1CN01GzsN9B1k7nfjNUhcI_!!4611686018427386573-53-xy_item.heic",
+              "squadName_845151128": "电影票",
+              "ownerUserType": "0",
+              "itemId": "1006665767522",
+              "itemFeatures": {
+                "idle_cat_leaf": "201418301"
+              },
+              "itemSellerId": "2220791634637",
+              "squadId_845151128": "201418301",
+              "ownerUserId": "2220791634637",
+              "squadId_2220791634637": "1006665767522"
+            },
+            "pairFirst": "845151128@goofish",
+            "bizType": "1",
+            "msgReadStatusSetting": 1,
+            "createAt": 1770183347000,
+            "cid": "57945118443@goofish",
+            "pairSecond": "2220791634637@goofish"
+          },
+          "topRank": 0,
+          "muteNotification": 0,
+          "user_extension": {}
+        },
+        "type": 1
+      },
+      {
+        "singleChatUserConversation": {
+          "visible": 1,
+          "modifyTime": 1770098925005,
+          "redPoint": 0,
+          "joinTime": 1770098085984,
+          "lastMessage": {
+            "readStatus": 2,
+            "userExtension": {
+              "needPush": "true"
+            },
+            "recallFeature": {
+              "showRecallStatusSetting": 0
+            },
+            "message": {
+              "extension": {
+                "_platform": "web",
+                "reminderContent": "亲，请将美团、猫眼或淘票票选座截图发过来，系统自动识别报价~ （如系统已报价，请忽略本消息）",
+                "_appVersion": "1.0",
+                "reminderNotice": "发来一条新消息",
+                "senderUserType": "0",
+                "detailNotice": "亲，请将美团、猫眼或淘票票选座截图发过来，系统自动识别报价~ （如系统已报价，请忽略本消息）",
+                "senderUserId": "2207585775554",
+                "extJson": {
+                  "x_RequestId": -3598078073733382000,
+                  "quickReply": "1",
+                  "x_RelpyLogId": 13598,
+                  "messageId": "7027b70dffc743a2aa7ddfcc80895ef1",
+                  "from": "IdleWorkBench",
+                  "tag": "u"
+                },
+                "sessionType": "1",
+                "reminderUrl": "fleamarket://message_chat?itemId=953550010772&peerUserId=2207585775554&sid=58209344026&messageId=7027b70dffc743a2aa7ddfcc80895ef1&adv=no",
+                "bizTag": {
+                  "sourceId": "S:1",
+                  "messageId": "7027b70dffc743a2aa7ddfcc80895ef1"
+                },
+                "reminderTitle": "努力卖票的太白_收徒"
+              },
+              "messageId": "3961281889709.PNM",
+              "unreadCount": 0,
+              "msgReadStatusSetting": 1,
+              "createAt": 1770098924672,
+              "content": {
+                "custom": {
+                  "summary": "亲，请将美团、猫眼或淘票票选座截图发过来，系统自动识别报价~ （如系统已报价，请忽略本消息）",
+                  "data": "eyJjb250ZW50VHlwZSI6MSwidGV4dCI6eyJ0ZXh0Ijoi5Lqy77yM6K+35bCG576O5Zui44CB54yr55y85oiW5reY56Wo56Wo6YCJ5bqn5oiq5Zu+5Y+R6L+H5p2l77yM57O757uf6Ieq5Yqo6K+G5Yir5oql5Lu3fiDvvIjlpoLns7vnu5/lt7LmiqXku7fvvIzor7flv73nlaXmnKzmtojmga/vvIkifX0=",
+                  "title": "",
+                  "type": 1,
+                  "degrade": ""
+                },
+                "contentType": 101
+              },
+              "mtags": {},
+              "conversationType": 1,
+              "displayStyle": 0,
+              "redPointPolicy": 0,
+              "recordStatus": 1,
+              "searchableContent": {
+                "summary": ""
+              },
+              "sender": {
+                "uid": "2207585775554@goofish",
+                "tag": 0
+              },
+              "receivers": [],
+              "receiverCount": 2,
+              "cid": "58209344026@goofish"
+            },
+            "msgStatus": 1
+          },
+          "singleChatConversation": {
+            "extension": {
+              "extUserType": "0",
+              "itemTitle": "全国电影票，一律12元起一张，特价电影票代买电影票，电影票低",
+              "squadId_2207585775554": "953550010772",
+              "extUserId": "845151128",
+              "itemMainPic": "https://img.alicdn.com/bao/uploaded/i4/O1CN01BzLXfd1qtmp9grsF7_!!4611686018427383746-0-fleamarket.jpg",
+              "squadName_845151128": "电影票",
+              "ownerUserType": "0",
+              "itemId": "953550010772",
+              "itemFeatures": {
+                "idle_cat_leaf": "201418301"
+              },
+              "itemSellerId": "2207585775554",
+              "squadName_2207585775554": "全国电影票，一律12元起一张，特价电影票代买电影票，电影票低",
+              "squadId_845151128": "201418301",
+              "ownerUserId": "2207585775554"
+            },
+            "pairFirst": "845151128@goofish",
+            "bizType": "1",
+            "msgReadStatusSetting": 1,
+            "createAt": 1770098085000,
+            "cid": "58209344026@goofish",
+            "pairSecond": "2207585775554@goofish"
+          },
+          "topRank": 0,
+          "muteNotification": 0,
+          "user_extension": {}
+        },
+        "type": 1
+      },
+      {
+        "singleChatUserConversation": {
+          "visible": 1,
+          "modifyTime": 1770097510062,
+          "redPoint": 0,
+          "joinTime": 1770033264824,
+          "lastMessage": {
+            "readStatus": 2,
+            "userExtension": {
+              "needPush": "true"
+            },
+            "recallFeature": {
+              "showRecallStatusSetting": 0
+            },
+            "message": {
+              "extension": {
+                "_platform": "web",
+                "reminderContent": "[打call]您先拍//您先拍//拍下我改价//[打call]\n闲鱼点击右上角立即购买~确定购买，先不输密码再返回（如果有免密付款页面修改为普通支付）",
+                "_appVersion": "1.0",
+                "reminderNotice": "发来一条新消息",
+                "senderUserType": "0",
+                "detailNotice": "[打call]您先拍//您先拍//拍下我改价//[打call]\n闲鱼点击右上角立即购买~确定购买，先不输密码再返回（如果有免密付款页面修改为普通支付）",
+                "senderUserId": "2219849810865",
+                "extJson": {
+                  "quickReply": "1",
+                  "messageId": "c0b75dfe8ee940a28ab784cea855695f",
+                  "tag": "u"
+                },
+                "sessionType": "1",
+                "reminderUrl": "fleamarket://message_chat?itemId=1007009791885&peerUserId=2219849810865&sid=57922829841&messageId=c0b75dfe8ee940a28ab784cea855695f&adv=no",
+                "bizTag": {
+                  "sourceId": "S:1",
+                  "messageId": "c0b75dfe8ee940a28ab784cea855695f"
+                },
+                "reminderTitle": "京享优惠"
+              },
+              "messageId": "3955110831861.PNM",
+              "unreadCount": 0,
+              "msgReadStatusSetting": 1,
+              "createAt": 1770097509506,
+              "content": {
+                "custom": {
+                  "summary": "[打call]您先拍//您先拍//拍下我改价//[打call]\n闲鱼点击右上角立即购买~确定购买，先不输密码再返回（如果有免密付款页面修改为普通支付）",
+                  "data": "eyJjb250ZW50VHlwZSI6MSwidGV4dCI6eyJ0ZXh0IjoiW+aJk2NhbGxd5oKo5YWI5ouNLy/mgqjlhYjmi40vL+aLjeS4i+aIkeaUueS7ty8vW+aJk2NhbGxdXG7pl7Lpsbzngrnlh7vlj7PkuIrop5Lnq4vljbPotK3kubB+56Gu5a6a6LSt5Lmw77yM5YWI5LiN6L6T5a+G56CB5YaN6L+U5Zue77yI5aaC5p6c5pyJ5YWN5a+G5LuY5qy+6aG16Z2i5L+u5pS55Li65pmu6YCa5pSv5LuY77yJIn19",
+                  "title": "",
+                  "type": 1,
+                  "degrade": ""
+                },
+                "contentType": 101
+              },
+              "mtags": {},
+              "conversationType": 1,
+              "displayStyle": 0,
+              "redPointPolicy": 0,
+              "recordStatus": 1,
+              "searchableContent": {
+                "summary": ""
+              },
+              "sender": {
+                "uid": "2219849810865@goofish",
+                "tag": 0
+              },
+              "receivers": [],
+              "receiverCount": 2,
+              "cid": "57922829841@goofish"
+            },
+            "msgStatus": 1
+          },
+          "singleChatConversation": {
+            "extension": {
+              "extUserType": "0",
+              "itemTitle": "全国电影票9元起，电影特价电影票、优惠电影票代购代买",
+              "squadName_2219849810865": "全国电影票9元起，电影特价电影票、优惠电影票代购代买",
+              "extUserId": "845151128",
+              "itemMainPic": "https://img.alicdn.com/bao/uploaded/i4/2219849810865/O1CN01TsZLBQ1IGDiB02mZ5_!!4611686018427380657-0-xy_item.jpg",
+              "squadName_845151128": "电影票",
+              "ownerUserType": "0",
+              "itemId": "1007009791885",
+              "itemFeatures": {
+                "idle_cat_leaf": "201418301"
+              },
+              "itemSellerId": "2219849810865",
+              "squadId_845151128": "201418301",
+              "squadId_2219849810865": "1007009791885",
+              "ownerUserId": "2219849810865"
+            },
+            "pairFirst": "845151128@goofish",
+            "bizType": "1",
+            "msgReadStatusSetting": 1,
+            "createAt": 1770033264000,
+            "cid": "57922829841@goofish",
+            "pairSecond": "2219849810865@goofish"
+          },
+          "topRank": 0,
+          "muteNotification": 0,
+          "user_extension": {}
+        },
+        "type": 1
+      },
+      {
+        "singleChatUserConversation": {
+          "visible": 1,
+          "modifyTime": 1770022255052,
+          "redPoint": 0,
+          "joinTime": 1731707987000,
+          "singleChatConversation": {
+            "extension": {
+              "$impaas_reserved$_lite_conv": "1",
+              "VULCAN_CREATE_TIME": "1731707990019",
+              "extUserType": "20",
+              "extUserId": "69",
+              "ownerUserId": "845151128",
+              "VULCAN_IMPORT_TIME": "1731707990025",
+              "ownerUserType": "0"
+            },
+            "pairFirst": "845151128@goofish",
+            "bizType": "23",
+            "msgReadStatusSetting": 0,
+            "createAt": 1731707987000,
+            "cid": "43830246859@goofish",
+            "pairSecond": "0@goofish"
+          },
+          "topRank": 0,
+          "muteNotification": 0,
+          "user_extension": {}
+        },
+        "type": 1
+      },
+      {
+        "singleChatUserConversation": {
+          "visible": 1,
+          "modifyTime": 1770022255010,
+          "redPoint": 0,
+          "joinTime": 1634615095000,
+          "singleChatConversation": {
+            "extension": {
+              "$impaas_reserved$_lite_conv": "1",
+              "VULCAN_CREATE_TIME": "1731707998030",
+              "extUserType": "20",
+              "extUserId": "9",
+              "ownerUserId": "845151128",
+              "VULCAN_IMPORT_TIME": "1731707998037",
+              "ownerUserType": "0"
+            },
+            "pairFirst": "845151128@goofish",
+            "bizType": "23",
+            "msgReadStatusSetting": 0,
+            "createAt": 1634615095000,
+            "cid": "18390956664@goofish",
+            "pairSecond": "0@goofish"
+          },
+          "topRank": 0,
+          "muteNotification": 0,
+          "user_extension": {}
+        },
+        "type": 1
+      },
+      {
+        "singleChatUserConversation": {
+          "visible": 1,
+          "modifyTime": 1770021702824,
+          "redPoint": 0,
+          "joinTime": 1760230696229,
+          "lastMessage": {
+            "readStatus": 2,
+            "userExtension": {
+              "needPush": "true"
+            },
+            "recallFeature": {
+              "showRecallStatusSetting": 0
+            },
+            "message": {
+              "extension": {
+                "reminderContent": "2500",
+                "_appVersion": "7.18.60",
+                "senderUserId": "4172668054",
+                "extJson": {
+                  "quickReply": "1",
+                  "messageId": "c18a14d6342e44e7b6dbd5a2fd745b27",
+                  "tag": "u"
+                },
+                "_platform": "ios",
+                "reminderNotice": "发来一条新消息",
+                "senderUserType": "0",
+                "detailNotice": "2500",
+                "port": "12628",
+                "clientIp": "112.224.173.165",
+                "sessionType": "1",
+                "reminderUrl": "fleamarket://message_chat?itemId=982977381317&peerUserId=4172668054&sid=54413525040&messageId=c18a14d6342e44e7b6dbd5a2fd745b27&adv=no",
+                "bizTag": {
+                  "sourceId": "S:1",
+                  "messageId": "c18a14d6342e44e7b6dbd5a2fd745b27"
+                },
+                "reminderTitle": "小林体育"
+              },
+              "messageId": "3763745692902.PNM",
+              "unreadCount": 0,
+              "msgReadStatusSetting": 1,
+              "createAt": 1760345467797,
+              "content": {
+                "custom": {
+                  "summary": "2500",
+                  "data": "eyJhdFVzZXJzIjpbXSwiY29udGVudFR5cGUiOjEsInRleHQiOnsidGV4dCI6IjI1MDAifX0=",
+                  "title": "",
+                  "type": 1,
+                  "degrade": ""
+                },
+                "contentType": 101
+              },
+              "mtags": {},
+              "conversationType": 1,
+              "displayStyle": 0,
+              "redPointPolicy": 0,
+              "recordStatus": 1,
+              "searchableContent": {
+                "summary": ""
+              },
+              "sender": {
+                "uid": "4172668054@goofish",
+                "tag": 0
+              },
+              "receivers": [],
+              "receiverCount": 2,
+              "cid": "54413525040@goofish"
+            },
+            "msgStatus": 1
+          },
+          "singleChatConversation": {
+            "extension": {
+              "extUserType": "0",
+              "itemTitle": "Solana+Mobile二代Seeker手机，第二款手机S",
+              "extUserId": "845151128",
+              "squadName_4172668054": "Solana+Mobile二代Seeker手机，第二款手机S",
+              "itemMainPic": "https://img.alicdn.com/bao/uploaded/i2/O1CN01wRvZYo29Mn0a8KtCo_!!4611686018427387030-0-fleamarket.jpg",
+              "squadName_845151128": "手机",
+              "ownerUserType": "0",
+              "squadId_4172668054": "982977381317",
+              "itemId": "982977381317",
+              "itemFeatures": {
+                "idle_cat_leaf": "126862528"
+              },
+              "itemSellerId": "4172668054",
+              "squadId_845151128": "126862528",
+              "ownerUserId": "4172668054"
+            },
+            "pairFirst": "845151128@goofish",
+            "bizType": "1",
+            "msgReadStatusSetting": 1,
+            "createAt": 1760230696000,
+            "cid": "54413525040@goofish",
+            "pairSecond": "4172668054@goofish"
+          },
+          "topRank": 0,
+          "muteNotification": 0,
+          "user_extension": {}
+        },
+        "type": 1
+      },
+      {
+        "singleChatUserConversation": {
+          "visible": 0,
+          "modifyTime": 1770021499140,
+          "redPoint": 0,
+          "joinTime": 1770021499140,
+          "singleChatConversation": {
+            "extension": {
+              "extUserType": "0",
+              "itemTitle": "深圳电影票CINESKY新天影院双IMAX壹方天地万科广场前",
+              "extUserId": "845151128",
+              "itemMainPic": "https://img.alicdn.com/bao/uploaded/i1/O1CN01Z7H59r1fXpvn6O7iK_!!0-fleamarket.jpg",
+              "squadName_845151128": "电影票",
+              "ownerUserType": "0",
+              "squadName_2212700594017": "深圳电影票CINESKY新天影院双IMAX壹方天地万科广场前",
+              "itemId": "774012176536",
+              "itemFeatures": {
+                "idle_cat_leaf": "201418301"
+              },
+              "itemSellerId": "2212700594017",
+              "squadId_845151128": "201418301",
+              "ownerUserId": "2212700594017",
+              "squadId_2212700594017": "774012176536"
+            },
+            "pairFirst": "845151128@goofish",
+            "bizType": "1",
+            "msgReadStatusSetting": 1,
+            "createAt": 1770021499000,
+            "cid": "58112810618@goofish",
+            "pairSecond": "2212700594017@goofish"
+          },
+          "topRank": 0,
+          "muteNotification": 0,
+          "user_extension": {}
+        },
+        "type": 1
+      },
+      {
+        "singleChatUserConversation": {
+          "visible": 0,
+          "modifyTime": 1770021423995,
+          "redPoint": 0,
+          "joinTime": 1770021423995,
+          "singleChatConversation": {
+            "extension": {
+              "extUserType": "0",
+              "itemTitle": "【秒回】全国电影票，任意影院，一张12元起，特价电影票，大胆",
+              "extUserId": "845151128",
+              "itemMainPic": "https://img.alicdn.com/bao/uploaded/i4/O1CN01YcWjwC2Gt2Dnr8cTk_!!4611686018427383760-0-fleamarket.jpg",
+              "squadName_845151128": "电影票",
+              "ownerUserType": "0",
+              "squadId_737669072": "1005476254618",
+              "squadName_737669072": "【秒回】全国电影票，任意影院，一张12元起，特价电影票，大胆",
+              "itemId": "1005476254618",
+              "itemFeatures": {
+                "idle_cat_leaf": "201418301"
+              },
+              "itemSellerId": "737669072",
+              "squadId_845151128": "201418301",
+              "ownerUserId": "737669072"
+            },
+            "pairFirst": "845151128@goofish",
+            "bizType": "1",
+            "msgReadStatusSetting": 1,
+            "createAt": 1770021423000,
+            "cid": "58105369914@goofish",
+            "pairSecond": "737669072@goofish"
+          },
+          "topRank": 0,
+          "muteNotification": 0,
+          "user_extension": {}
+        },
+        "type": 1
+      },
+      {
+        "singleChatUserConversation": {
+          "visible": 1,
+          "modifyTime": 1770021264998,
+          "redPoint": 0,
+          "joinTime": 1770021264633,
+          "lastMessage": {
+            "readStatus": 2,
+            "userExtension": {
+              "needPush": "false"
+            },
+            "recallFeature": {
+              "showRecallStatusSetting": 0
+            },
+            "message": {
+              "extension": {
+                "reminderContent": "关注我，更多狠货上新不错过~",
+                "reminderNotice": "发来一条新消息",
+                "senderUserType": "0",
+                "closeUnreadNumber": "false",
+                "detailNotice": "关注我，更多狠货上新不错过~",
+                "senderUserId": "2215394585288",
+                "extJson": {
+                  "msgArgs": {
+                    "task_id": "HWP3lgY9vc3g",
+                    "source": "im",
+                    "msg_id": "3e2a485532684244ba1079f3feeba62a"
+                  },
+                  "quickReply": "1",
+                  "msgArg1": "MsgCard",
+                  "messageId": "3e2a485532684244ba1079f3feeba62a",
+                  "contentType": "6"
+                },
+                "sessionType": "1",
+                "closePushReceiver": "true",
+                "reminderUrl": "fleamarket://message_chat?itemId=754096351134&peerUserId=2215394585288&sid=57890302679&messageId=3e2a485532684244ba1079f3feeba62a&adv=no",
+                "bizTag": {
+                  "sourceId": "LOTTERY_V2:HWP3lgY9vc3g",
+                  "taskName": "玩家涨粉-引导关注",
+                  "materialId": "HWP3lgY9vc3g",
+                  "taskId": "HWP3lgY9vc3g"
+                },
+                "reminderTitle": "猪皮冲冲冲"
+              },
+              "messageId": "3959177008755.PNM",
+              "unreadCount": 0,
+              "msgReadStatusSetting": 1,
+              "createAt": 1770021264783,
+              "content": {
+                "custom": {
+                  "summary": "关注我，更多狠货上新不错过~",
+                  "data": "eyJjb250ZW50VHlwZSI6NiwidGV4dENhcmQiOnsiY29udGVudCI6IjxzdHJvbmc+PGZvbnQgY29sb3I9XCIjOTk5OTk5XCI+5YWz5rOo5oiR77yM5pu05aSa54ug6LSn5LiK5paw5LiN6ZSZ6L+HfjwvZm9udD48L3N0cm9uZz4gPGEgaHJlZj1cImh0dHBzOi8vbWFya2V0Lm0udGFvYmFvLmNvbS9hcHAvaWRsZUZpc2gtRjJlL2lkbGUtcGxheWJveS9wYWdlcy9mYXZvclBvcE1lc3NhZ2U/d2hfd2VleD10cnVlJnRyYW5zcGFyZW50PXRydWUmaGlkZU5hdkJhcj10cnVlJmlzX21vZGFsPXRydWUmbW9kYWxQU3R5bGU9dHJ1ZSZ1c2VySWQ9MjIxNTM5NDU4NTI4OFwiPueri+WNs+WFs+azqDwvYT4iLCJ0aXRsZSI6IjxzdHJvbmc+PGZvbnQgY29sb3I9XCIjMDAwMDAwXCIgZm9udEZhbWlseT1cInhpYW55dWJldGFcIiBwYWNrYWdlPVwiYnVzaW5lc3Nfd2lkZ2V0XCI+54yq55qu5Yay5Yay5YayPC9mb250Pjwvc3Ryb25nPiJ9fQ==",
+                  "title": "",
+                  "type": 6,
+                  "degrade": ""
+                },
+                "contentType": 101
+              },
+              "mtags": {},
+              "conversationType": 1,
+              "displayStyle": 0,
+              "redPointPolicy": 0,
+              "recordStatus": 1,
+              "searchableContent": {
+                "summary": ""
+              },
+              "sender": {
+                "uid": "2215394585288@goofish",
+                "tag": 0
+              },
+              "receivers": [],
+              "receiverCount": 1,
+              "cid": "57890302679@goofish"
+            },
+            "msgStatus": 1
+          },
+          "singleChatConversation": {
+            "extension": {
+              "extUserType": "0",
+              "itemTitle": "深圳电影票代买优惠代订全国电影院",
+              "extUserId": "845151128",
+              "itemMainPic": "https://img.alicdn.com/bao/uploaded/i1/O1CN01p4lKzG1ovxJoR4ZiO_!!53-fleamarket.heic",
+              "squadName_845151128": "电影票",
+              "ownerUserType": "0",
+              "squadId_2215394585288": "754096351134",
+              "itemId": "754096351134",
+              "itemFeatures": {
+                "idle_cat_leaf": "201418301"
+              },
+              "itemSellerId": "2215394585288",
+              "squadId_845151128": "201418301",
+              "ownerUserId": "2215394585288",
+              "squadName_2215394585288": "深圳电影票代买优惠代订全国电影院"
+            },
+            "pairFirst": "845151128@goofish",
+            "bizType": "1",
+            "msgReadStatusSetting": 1,
+            "createAt": 1770021264000,
+            "cid": "57890302679@goofish",
+            "pairSecond": "2215394585288@goofish"
+          },
+          "topRank": 0,
+          "muteNotification": 0,
+          "user_extension": {}
+        },
+        "type": 1
+      },
+      {
+        "singleChatUserConversation": {
+          "visible": 0,
+          "modifyTime": 1770021246030,
+          "redPoint": 0,
+          "joinTime": 1770021246030,
+          "singleChatConversation": {
+            "extension": {
+              "squadId_2219423446560": "890852286700",
+              "extUserType": "0",
+              "itemTitle": "电影票低至15起 全国电影票代买 ，特价电影票， 低价代购全",
+              "extUserId": "845151128",
+              "itemMainPic": "https://img.alicdn.com/bao/uploaded/i1/O1CN01nBULCz1yKXE8ViJLH_!!4611686018427385376-53-fleamarket.heic",
+              "squadName_845151128": "电影票",
+              "ownerUserType": "0",
+              "itemId": "890852286700",
+              "squadName_2219423446560": "电影票低至15起 全国电影票代买 ，特价电影票， 低价代购全",
+              "itemFeatures": {
+                "idle_cat_leaf": "201418301"
+              },
+              "itemSellerId": "2219423446560",
+              "squadId_845151128": "201418301",
+              "ownerUserId": "2219423446560"
+            },
+            "pairFirst": "845151128@goofish",
+            "bizType": "1",
+            "msgReadStatusSetting": 1,
+            "createAt": 1770021246000,
+            "cid": "57917621247@goofish",
+            "pairSecond": "2219423446560@goofish"
+          },
+          "topRank": 0,
+          "muteNotification": 0,
+          "user_extension": {}
+        },
+        "type": 1
+      },
+      {
+        "singleChatUserConversation": {
+          "visible": 0,
+          "modifyTime": 1770021236812,
+          "redPoint": 0,
+          "joinTime": 1770021236812,
+          "singleChatConversation": {
+            "extension": {
+              "extUserType": "0",
+              "itemTitle": "电影票代买低至9.9张起全国优惠，低价代下，特价电影票， 特",
+              "extUserId": "845151128",
+              "squadName_2219769013436": "电影票代买低至9.9张起全国优惠，低价代下，特价电影票， 特",
+              "itemMainPic": "https://img.alicdn.com/bao/uploaded/i1/O1CN01w9l8pA1bFjw0yKEve_!!4611686018427380924-53-fleamarket.heic",
+              "squadName_845151128": "电影票",
+              "ownerUserType": "0",
+              "itemId": "919559217430",
+              "itemFeatures": {
+                "idle_cat_leaf": "201418301"
+              },
+              "itemSellerId": "2219769013436",
+              "squadId_845151128": "201418301",
+              "ownerUserId": "2219769013436",
+              "squadId_2219769013436": "919559217430"
+            },
+            "pairFirst": "845151128@goofish",
+            "bizType": "1",
+            "msgReadStatusSetting": 1,
+            "createAt": 1770021236000,
+            "cid": "58112778065@goofish",
+            "pairSecond": "2219769013436@goofish"
+          },
+          "topRank": 0,
+          "muteNotification": 0,
+          "user_extension": {}
+        },
+        "type": 1
+      },
+      {
+        "singleChatUserConversation": {
+          "visible": 1,
+          "modifyTime": 1760230915188,
+          "redPoint": 0,
+          "joinTime": 1760230870906,
+          "lastMessage": {
+            "readStatus": 2,
+            "userExtension": {
+              "needPush": "false"
+            },
+            "recallFeature": {
+              "showRecallStatusSetting": 0
+            },
+            "message": {
+              "extension": {
+                "reminderContent": "👌 ",
+                "_appVersion": "7.22.80",
+                "senderUserId": "845151128",
+                "umid": "WV6009944658c4333202107b0b1edf224",
+                "utdid": "ZYzQNiFKBx8DAB0Bbeu/NJEB",
+                "extJson": {
+                  "quickReply": "1",
+                  "utdid": "ZYzQNiFKBx8DAB0Bbeu/NJEB",
+                  "messageId": "bb134bbc2dc04701a4d0127ff3384d88",
+                  "umidToken": "sPgBYLhLPEqVwAKZzI5GZQrtGZRBvdwu",
+                  "tag": "u"
+                },
+                "umidToken": "sPgBYLhLPEqVwAKZzI5GZQrtGZRBvdwu",
+                "_platform": "android",
+                "reminderNotice": "发来一条新消息",
+                "senderUserType": "0",
+                "detailNotice": "👌 ",
+                "port": "44474",
+                "clientIp": "113.116.49.204",
+                "sessionType": "1",
+                "reminderUrl": "fleamarket://message_chat?itemId=982758305776&peerUserId=845151128&sid=54581817140&messageId=bb134bbc2dc04701a4d0127ff3384d88&adv=no",
+                "bizTag": {
+                  "sourceId": "S:1",
+                  "messageId": "bb134bbc2dc04701a4d0127ff3384d88"
+                },
+                "reminderTitle": "取个名字真难0114"
+              },
+              "messageId": "3761007518447.PNM",
+              "unreadCount": 0,
+              "msgReadStatusSetting": 1,
+              "createAt": 1760230914920,
+              "content": {
+                "custom": {
+                  "summary": "👌 ",
+                  "data": "eyJhdFVzZXJzIjpbXSwiY29udGVudFR5cGUiOjEsInRleHQiOnsidGV4dCI6IvCfkYwgIn19",
+                  "title": "",
+                  "type": 1,
+                  "degrade": ""
+                },
+                "contentType": 101
+              },
+              "mtags": {},
+              "conversationType": 1,
+              "displayStyle": 0,
+              "redPointPolicy": 0,
+              "recordStatus": 1,
+              "searchableContent": {
+                "summary": ""
+              },
+              "sender": {
+                "uid": "845151128@goofish",
+                "tag": 0
+              },
+              "receivers": [],
+              "receiverCount": 2,
+              "cid": "54581817140@goofish"
+            },
+            "msgStatus": 1
+          },
+          "singleChatConversation": {
+            "extension": {
+              "extUserType": "0",
+              "itemTitle": "sol 有激活和未激活 未激活3500包邮 激活2800",
+              "squadName_3329962733": "sol 有激活和未激活 未激活3500包邮 激活2800",
+              "extUserId": "845151128",
+              "itemMainPic": "https://img.alicdn.com/bao/uploaded/i1/O1CN01CmvfqZ1W3lXfOMBUj_!!4611686018427384557-0-fleamarket.jpg",
+              "squadName_845151128": "其他无人机配件",
+              "ownerUserType": "0",
+              "itemId": "982758305776",
+              "itemFeatures": {
+                "idle_cat_leaf": "202146844"
+              },
+              "itemSellerId": "3329962733",
+              "squadId_845151128": "202146844",
+              "ownerUserId": "3329962733",
+              "squadId_3329962733": "982758305776"
+            },
+            "pairFirst": "845151128@goofish",
+            "bizType": "1",
+            "msgReadStatusSetting": 1,
+            "createAt": 1760230870000,
+            "cid": "54581817140@goofish",
+            "pairSecond": "3329962733@goofish"
+          },
+          "topRank": 0,
+          "muteNotification": 0,
+          "user_extension": {}
+        },
+        "type": 1
+      },
+      {
+        "singleChatUserConversation": {
+          "visible": 1,
+          "modifyTime": 1757488349914,
+          "redPoint": 0,
+          "joinTime": 1757466149629,
+          "lastMessage": {
+            "readStatus": 2,
+            "userExtension": {
+              "needPush": "false"
+            },
+            "recallFeature": {
+              "showRecallStatusSetting": 0
+            },
+            "message": {
+              "extension": {
+                "reminderContent": "[退款成功，钱款已原路退返]",
+                "receiver": "845151128",
+                "senderUserId": "3017072517",
+                "extJson": {
+                  "msgArgs": {
+                    "task_id": "nGuN9rFMsm0D",
+                    "source": "im",
+                    "msg_id": "d23e1acaf4204a6eb147be6435fa854a"
+                  },
+                  "msgArg1": "MsgTips",
+                  "messageId": "d23e1acaf4204a6eb147be6435fa854a",
+                  "contentType": "14"
+                },
+                "closePushReceiver": "true",
+                "reminderNotice": "发来一条新消息",
+                "senderUserType": "0",
+                "closeUnreadNumber": "true",
+                "detailNotice": "[退款成功，钱款已原路退返]",
+                "redReminderStyle": "11",
+                "sessionType": "1",
+                "reminderUrl": "fleamarket://message_chat?itemId=973949789230&peerUserId=3017072517&sid=53463893619&messageId=d23e1acaf4204a6eb147be6435fa854a&adv=no",
+                "bizTag": {
+                  "sourceId": "C2C:nGuN9rFMsm0D",
+                  "taskName": "退款成功钱款退回_买家",
+                  "materialId": "nGuN9rFMsm0D",
+                  "taskId": "nGuN9rFMsm0D"
+                },
+                "reminderTitle": "levelsio",
+                "redReminder": "交易关闭",
+                "updateHead": "true"
+              },
+              "messageId": "3702746939001.PNM",
+              "unreadCount": 0,
+              "msgReadStatusSetting": 1,
+              "createAt": 1757476085244,
+              "content": {
+                "custom": {
+                  "summary": "[退款成功，钱款已原路退返]",
+                  "data": "eyJjb250ZW50VHlwZSI6MTQsInRpcCI6eyJ0aXAiOiLpgIDmrL7miJDlip/vvIzpkrHmrL7lt7Lljp/ot6/pgIDov5QifX0=",
+                  "title": "",
+                  "type": 14,
+                  "degrade": ""
+                },
+                "contentType": 101
+              },
+              "mtags": {},
+              "conversationType": 1,
+              "displayStyle": 0,
+              "redPointPolicy": 0,
+              "recordStatus": 1,
+              "searchableContent": {
+                "summary": ""
+              },
+              "sender": {
+                "uid": "3017072517@goofish",
+                "tag": 0
+              },
+              "receivers": [],
+              "receiverCount": 1,
+              "cid": "53463893619@goofish"
+            },
+            "msgStatus": 1
+          },
+          "singleChatConversation": {
+            "extension": {
+              "extUserType": "0",
+              "itemTitle": "Gemini一年学生优惠认证 【提供材料自助认证】",
+              "extUserId": "845151128",
+              "itemMainPic": "https://img.alicdn.com/bao/uploaded/i4/O1CN01dhHYCu1USpzC15hw3_!!4611686018427387781-0-fleamarket.jpg",
+              "squadName_845151128": "AI定制设计",
+              "ownerUserType": "0",
+              "itemId": "973949789230",
+              "squadName_3017072517": "Gemini一年学生优惠认证 【提供材料自助认证】",
+              "itemFeatures": {
+                "idle_cat_leaf": "202034003"
+              },
+              "itemSellerId": "3017072517",
+              "squadId_845151128": "202034003",
+              "ownerUserId": "3017072517",
+              "squadId_3017072517": "973949789230"
+            },
+            "pairFirst": "845151128@goofish",
+            "bizType": "1",
+            "msgReadStatusSetting": 1,
+            "createAt": 1757466149000,
+            "cid": "53463893619@goofish",
+            "pairSecond": "3017072517@goofish"
+          },
+          "topRank": 0,
+          "muteNotification": 0,
+          "user_extension": {
+            "redReminderStyle": "11",
+            "redReminder": "交易关闭"
+          }
+        },
+        "type": 1
+      },
+      {
+        "singleChatUserConversation": {
+          "visible": 1,
+          "modifyTime": 1757476092937,
+          "redPoint": 0,
+          "joinTime": 1757476085000,
+          "lastMessage": {
+            "readStatus": 0,
+            "userExtension": {
+              "needPush": "true"
+            },
+            "recallFeature": {
+              "showRecallStatusSetting": 0
+            },
+            "message": {
+              "extension": {
+                "reminderContent": "邀您填写售后问卷",
+                "senderUserId": "1400",
+                "onlyForSender": "false",
+                "extJson": {
+                  "messageId": "76c9ecf98e384c33b83d4104404d0a93"
+                },
+                "reminderType": "0",
+                "closePushReceiver": "false",
+                "reminderNotice": "你有一条新消息",
+                "senderUserType": "0",
+                "closeUnreadNumber": "false",
+                "detailNotice": "邀您填写售后问卷",
+                "closePushSender": "false",
+                "sessionType": "24",
+                "reminderUrl": "https://alimebot.goofish.com/intl/index.htm?from=rvADIKBU02&sid=53445430969&messageId=76c9ecf98e384c33b83d4104404d0a93&adv=no",
+                "bizTag": "xiaomiPush:202107090",
+                "reminderTitle": "闲小蜜发来一条新消息"
+              },
+              "messageId": "3708237291284.PNM",
+              "unreadCount": 1,
+              "msgReadStatusSetting": 1,
+              "createAt": 1757476085243,
+              "content": {
+                "custom": {
+                  "summary": "邀您填写售后问卷",
+                  "data": "eyJjb250ZW50VHlwZSI6MSwidGV4dCI6eyJ0ZXh0Ijoi6YKA5oKo5aGr5YaZ5ZSu5ZCO6Zeu5Y23In19",
+                  "title": "",
+                  "type": 1,
+                  "degrade": ""
+                },
+                "contentType": 101
+              },
+              "mtags": {},
+              "conversationType": 1,
+              "displayStyle": 0,
+              "redPointPolicy": 0,
+              "recordStatus": 1,
+              "searchableContent": {
+                "summary": ""
+              },
+              "sender": {
+                "uid": "1400@goofish",
+                "tag": 0
+              },
+              "receivers": [],
+              "receiverCount": 1,
+              "cid": "53445430969@goofish"
+            },
+            "msgStatus": 1
+          },
+          "singleChatConversation": {
+            "extension": {
+              "xiaomiTargetUrl": "https://alimebot.goofish.com/intl/index.htm?from=rvADIKBU02",
+              "VULCAN_CREATE_TIME": "1757476085197",
+              "extUserType": "10",
+              "extUserId": "1400",
+              "ownerUserId": "845151128",
+              "ownerUserType": "0"
+            },
+            "pairFirst": "845151128@goofish",
+            "bizType": "24",
+            "msgReadStatusSetting": 1,
+            "createAt": 1757476085000,
+            "cid": "53445430969@goofish",
+            "pairSecond": "0@goofish"
+          },
+          "topRank": 0,
+          "muteNotification": 0,
+          "user_extension": {}
+        },
+        "type": 1
+      },
+      {
+        "singleChatUserConversation": {
+          "visible": 1,
+          "modifyTime": 1757467367289,
+          "redPoint": 0,
+          "joinTime": 1744950586396,
+          "lastMessage": {
+            "readStatus": 2,
+            "userExtension": {
+              "needPush": "true"
+            },
+            "recallFeature": {
+              "showRecallStatusSetting": 0
+            },
+            "message": {
+              "extension": {
+                "reminderContent": "订单异常，无法充值，已自动退单退款，带来不便请见谅\n失败可能是以下情况：\n1、号码欠费、停机状态\n2、电信目前只湖南/广东/江苏/江西/四川/河北/河南/甘肃/贵州/山东/福建/辽宁/吉林可以正常下单，其他地区暂时无法正常下单\n\n如果以上情况都没有，仍然退单，可以重新下单尝试",
+                "reminderNotice": "发来一条新消息",
+                "senderUserType": "0",
+                "detailNotice": "订单异常，无法充值，已自动退单退款，带来不便请见谅\n失败可能是以下情况：\n1、号码欠费、停机状态\n2、电信目前只湖南/广东/江苏/江西/四川/河北/河南/甘肃/贵州/山东/福建/辽宁/吉林可以正常下单，其他地区暂时无法正常下单\n\n如果以上情况都没有，仍然退单，可以重新下单尝试",
+                "senderUserId": "199434971",
+                "extJson": {
+                  "quickReply": "1",
+                  "messageId": "94571a58c36a463ba7cc055abf852d2e",
+                  "tag": "u"
+                },
+                "sessionType": "1",
+                "reminderUrl": "fleamarket://message_chat?itemId=874057771563&peerUserId=199434971&peerUserNick=a***l&sid=49108121331&messageId=94571a58c36a463ba7cc055abf852d2e&adv=no",
+                "bizTag": "top_order_msg_send",
+                "reminderTitle": "也不是很好看的话费充值"
+              },
+              "messageId": "3465997531571.PNM",
+              "unreadCount": 0,
+              "msgReadStatusSetting": 1,
+              "createAt": 1745033447819,
+              "content": {
+                "custom": {
+                  "summary": "订单异常，无法充值，已自动退单退款，带来不便请见谅\n失败可能是以下情况：\n1、号码欠费、停机状态\n2、电信目前只湖南/广东/江苏/江西/四川/河北/河南/甘肃/贵州/山东/福建/辽宁/吉林可以正常下单，其他地区暂时无法正常下单\n\n如果以上情况都没有，仍然退单，可以重新下单尝试",
+                  "data": "eyJjb250ZW50VHlwZSI6MSwidGV4dCI6eyJ0ZXh0Ijoi6K6i5Y2V5byC5bi477yM5peg5rOV5YWF5YC877yM5bey6Ieq5Yqo6YCA5Y2V6YCA5qy+77yM5bim5p2l5LiN5L6/6K+36KeB6LCFXG7lpLHotKXlj6/og73mmK/ku6XkuIvmg4XlhrXvvJpcbjHjgIHlj7fnoIHmrKDotLnjgIHlgZzmnLrnirbmgIFcbjLjgIHnlLXkv6Hnm67liY3lj6rmuZbljZcv5bm/5LicL+axn+iLjy/msZ/opb8v5Zub5bedL+ays+WMly/msrPljZcv55SY6IKDL+i0teW3ni/lsbHkuJwv56aP5bu6L+i+veWugS/lkInmnpflj6/ku6XmraPluLjkuIvljZXvvIzlhbbku5blnLDljLrmmoLml7bml6Dms5XmraPluLjkuIvljZVcblxu5aaC5p6c5Lul5LiK5oOF5Ya16YO95rKh5pyJ77yM5LuN54S26YCA5Y2V77yM5Y+v5Lul6YeN5paw5LiL5Y2V5bCd6K+VIn19",
+                  "title": "",
+                  "type": 1,
+                  "degrade": ""
+                },
+                "contentType": 101
+              },
+              "mtags": {},
+              "conversationType": 1,
+              "displayStyle": 0,
+              "redPointPolicy": 0,
+              "recordStatus": 1,
+              "searchableContent": {
+                "summary": ""
+              },
+              "sender": {
+                "uid": "199434971@goofish",
+                "tag": 0
+              },
+              "receivers": [],
+              "receiverCount": 2,
+              "cid": "49108121331@goofish"
+            },
+            "msgStatus": 1
+          },
+          "singleChatConversation": {
+            "extension": {
+              "itemId": "874057771563",
+              "VULCAN_CREATE_TIME": "1744950586390",
+              "itemSellerId": "199434971",
+              "extUserType": "0",
+              "extUserId": "845151128",
+              "ownerUserId": "199434971",
+              "VULCAN_SRC": "heracles",
+              "itemMainPic": "https://img.alicdn.com/bao/uploaded/i4/O1CN01lUqvXr1malrsuvdO9_!!4611686018427380443-0-fleamarket.jpg",
+              "ownerUserType": "0"
+            },
+            "pairFirst": "199434971@goofish",
+            "bizType": "1",
+            "msgReadStatusSetting": 1,
+            "createAt": 1744950586396,
+            "cid": "49108121331@goofish",
+            "pairSecond": "845151128@goofish"
+          },
+          "topRank": 0,
+          "muteNotification": 0,
+          "user_extension": {
+            "redReminderStyle": "11",
+            "redReminder": "充值失败"
+          }
+        },
+        "type": 1
+      },
+      {
+        "singleChatUserConversation": {
+          "visible": 1,
+          "modifyTime": 1745049025479,
+          "redPoint": 0,
+          "joinTime": 1745032343092,
+          "lastMessage": {
+            "readStatus": 2,
+            "userExtension": {
+              "needPush": "true"
+            },
+            "recallFeature": {
+              "showRecallStatusSetting": 0
+            },
+            "message": {
+              "extension": {
+                "reminderContent": "订单异常，无法充值，已自动退单退款，带来不便请见谅\n失败可能是以下情况：\n1、号码欠费、停机状态\n2、电信目前只湖南/广东/江苏/江西/四川/河北/河南/甘肃/贵州/山东/福建/辽宁/吉林可以正常下单，其他地区暂时无法正常下单\n\n如果以上情况都没有，仍然退单，可以重新下单尝试",
+                "reminderNotice": "发来一条新消息",
+                "senderUserType": "0",
+                "detailNotice": "订单异常，无法充值，已自动退单退款，带来不便请见谅\n失败可能是以下情况：\n1、号码欠费、停机状态\n2、电信目前只湖南/广东/江苏/江西/四川/河北/河南/甘肃/贵州/山东/福建/辽宁/吉林可以正常下单，其他地区暂时无法正常下单\n\n如果以上情况都没有，仍然退单，可以重新下单尝试",
+                "senderUserId": "199434971",
+                "extJson": {
+                  "quickReply": "1",
+                  "messageId": "78808ff7ba624776a2470ca84419cffa",
+                  "tag": "u"
+                },
+                "sessionType": "1",
+                "reminderUrl": "fleamarket://message_chat?itemId=861263511840&peerUserId=199434971&peerUserNick=a***l&sid=49136961411&messageId=78808ff7ba624776a2470ca84419cffa&adv=no",
+                "bizTag": "top_order_msg_send",
+                "reminderTitle": "也不是很好看的话费充值"
+              },
+              "messageId": "3462446696051.PNM",
+              "unreadCount": 0,
+              "msgReadStatusSetting": 1,
+              "createAt": 1745032370617,
+              "content": {
+                "custom": {
+                  "summary": "订单异常，无法充值，已自动退单退款，带来不便请见谅\n失败可能是以下情况：\n1、号码欠费、停机状态\n2、电信目前只湖南/广东/江苏/江西/四川/河北/河南/甘肃/贵州/山东/福建/辽宁/吉林可以正常下单，其他地区暂时无法正常下单\n\n如果以上情况都没有，仍然退单，可以重新下单尝试",
+                  "data": "eyJjb250ZW50VHlwZSI6MSwidGV4dCI6eyJ0ZXh0Ijoi6K6i5Y2V5byC5bi477yM5peg5rOV5YWF5YC877yM5bey6Ieq5Yqo6YCA5Y2V6YCA5qy+77yM5bim5p2l5LiN5L6/6K+36KeB6LCFXG7lpLHotKXlj6/og73mmK/ku6XkuIvmg4XlhrXvvJpcbjHjgIHlj7fnoIHmrKDotLnjgIHlgZzmnLrnirbmgIFcbjLjgIHnlLXkv6Hnm67liY3lj6rmuZbljZcv5bm/5LicL+axn+iLjy/msZ/opb8v5Zub5bedL+ays+WMly/msrPljZcv55SY6IKDL+i0teW3ni/lsbHkuJwv56aP5bu6L+i+veWugS/lkInmnpflj6/ku6XmraPluLjkuIvljZXvvIzlhbbku5blnLDljLrmmoLml7bml6Dms5XmraPluLjkuIvljZVcblxu5aaC5p6c5Lul5LiK5oOF5Ya16YO95rKh5pyJ77yM5LuN54S26YCA5Y2V77yM5Y+v5Lul6YeN5paw5LiL5Y2V5bCd6K+VIn19",
+                  "title": "",
+                  "type": 1,
+                  "degrade": ""
+                },
+                "contentType": 101
+              },
+              "mtags": {},
+              "conversationType": 1,
+              "displayStyle": 0,
+              "redPointPolicy": 0,
+              "recordStatus": 1,
+              "searchableContent": {
+                "summary": ""
+              },
+              "sender": {
+                "uid": "199434971@goofish",
+                "tag": 0
+              },
+              "receivers": [],
+              "receiverCount": 2,
+              "cid": "49136961411@goofish"
+            },
+            "msgStatus": 1
+          },
+          "singleChatConversation": {
+            "extension": {
+              "itemId": "861263511840",
+              "VULCAN_CREATE_TIME": "1745032343086",
+              "itemSellerId": "199434971",
+              "extUserType": "0",
+              "extUserId": "845151128",
+              "ownerUserId": "199434971",
+              "VULCAN_SRC": "heracles",
+              "itemMainPic": "https://img.alicdn.com/bao/uploaded/i2/O1CN01SVTl1b1malrRIJe4g_!!4611686018427380443-0-fleamarket.jpg",
+              "ownerUserType": "0"
+            },
+            "pairFirst": "199434971@goofish",
+            "bizType": "1",
+            "msgReadStatusSetting": 1,
+            "createAt": 1745032343092,
+            "cid": "49136961411@goofish",
+            "pairSecond": "845151128@goofish"
+          },
+          "topRank": 0,
+          "muteNotification": 0,
+          "user_extension": {
+            "redReminderStyle": "11",
+            "redReminder": "充值失败"
+          }
+        },
+        "type": 1
+      },
+      {
+        "singleChatUserConversation": {
+          "visible": 1,
+          "modifyTime": 1523453025000,
+          "redPoint": 0,
+          "joinTime": 1523453025000,
+          "singleChatConversation": {
+            "extension": {
+              "$impaas_reserved$_lite_conv": "1",
+              "VULCAN_CREATE_TIME": "1731707998521",
+              "extUserType": "10",
+              "extUserId": "200",
+              "ownerUserId": "845151128",
+              "VULCAN_IMPORT_TIME": "1731707998528",
+              "ownerUserType": "0"
+            },
+            "pairFirst": "845151128@goofish",
+            "bizType": "6",
+            "msgReadStatusSetting": 0,
+            "createAt": 1523453025000,
+            "cid": "2298759969@goofish",
+            "pairSecond": "0@goofish"
+          },
+          "topRank": 0,
+          "muteNotification": 0,
+          "user_extension": {}
+        },
+        "type": 1
+      }
+    ],
+    "hasMore": 0
+  }
+}

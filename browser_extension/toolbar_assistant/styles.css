@@ -1,0 +1,131 @@
+/* toolbar_assistant/styles.css */
+
+#xianyu-quick-reply-wrapper {
+    display: inline-block;
+}
+
+.xianyu-custom-tool-btn {
+    height: 24px;
+    padding: 0 10px;
+    margin-left: 12px;
+    background: #ffda44;
+    border: none;
+    border-radius: 4px;
+    color: #333;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    white-space: nowrap;
+}
+
+.xianyu-custom-tool-btn:hover {
+    background: #facc15;
+    transform: translateY(-1px);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+#xianyu-script-menu {
+    position: absolute;
+    bottom: 30px;
+    /* Expand upwards */
+    left: 12px;
+    width: 200px;
+    max-height: 300px;
+    overflow-y: auto;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    z-index: 10000;
+    padding: 4px 0;
+}
+
+.xianyu-menu-item {
+    padding: 10px 12px;
+    cursor: pointer;
+    border-bottom: 1px solid #f5f5f5;
+    transition: background 0.2s;
+    line-height: 1.4;
+}
+
+.xianyu-menu-item:last-child {
+    border-bottom: none;
+}
+
+.xianyu-menu-item:hover {
+    background: #fff9db;
+}
+
+.xianyu-menu-item strong {
+    display: block;
+    font-size: 13px;
+    color: #333;
+    margin-bottom: 2px;
+}
+
+.xianyu-menu-item .preview {
+    font-size: 11px;
+    color: #999;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.xianyu-menu-item.ocr-item {
+    background: #e3f2fd;
+    border-bottom: 2px solid #2196f3;
+}
+
+.xianyu-menu-item.ocr-item:hover {
+    background: #bbdefb;
+}
+
+.xianyu-menu-item.ocr-item strong {
+    color: #1976d2;
+}
+
+/* Toast Notifications */
+.xianyu-toast {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%) translateY(-20px);
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 14px;
+    z-index: 20000;
+    opacity: 0;
+    transition: all 0.3s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.xianyu-toast.show {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+}
+
+.xianyu-toast-success {
+    background: #4caf50;
+}
+
+.xianyu-toast-error {
+    background: #f44336;
+}
+
+.xianyu-toast-info {
+    background: #2196f3;
+}
+
+/* Stability fixes for toolbar */
+[class^="sendbox-topbar--"] {
+    display: flex !important;
+    align-items: center !important;
+}

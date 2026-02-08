@@ -1,0 +1,39 @@
+{
+    "manifest_version": 3,
+    "name": "闲鱼快捷话术助手",
+    "version": "1.0",
+    "description": "在聊天框工具栏增加快捷回复按钮",
+    "permissions": [
+        "storage"
+    ],
+    "host_permissions": [
+        "https://up-hub-img.yinghuasuan.com/*",
+        "https://merchant-api.yinghuasuan.com/*",
+        "https://hub.yhs.cn/*"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*.goofish.com/*",
+                "*://*.2688.com/*"
+            ],
+            "js": [
+                "scripts_config.js",
+                "content.js"
+            ],
+            "css": [
+                "styles.css"
+            ],
+            "run_at": "document_idle"
+        },
+        {
+            "matches": [
+                "https://hub.yhs.cn/*"
+            ],
+            "js": [
+                "auth_sync.js"
+            ],
+            "run_at": "document_idle"
+        }
+    ]
+}

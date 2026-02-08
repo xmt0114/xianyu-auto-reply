@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>闲鱼助手设置</title>
+    <style>
+        body { width: 300px; padding: 10px; font-family: sans-serif; }
+        .status { margin-bottom: 10px; padding: 5px; background: #e0e0e0; border-radius: 4px; }
+        .btn { width: 100%; padding: 8px; margin-top: 5px; background: #ffe400; border: none; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <h3>🐟 闲鱼自动回复</h3>
+    <div class="status" id="status">状态：运行中</div>
+    <button class="btn" id="toggle">暂停/继续</button>
+    <hr/>
+    <label>OCR API Key:</label>
+    <input type="text" id="ocr_key" style="width: 95%; margin-bottom: 5px;">
+    <button class="btn" id="save">保存配置</button>
+    <script src="popup.js"></script>
+</body>
+</html>
