@@ -599,39 +599,60 @@ function handleIncomingAlert(alert) {
 
     const icon = type === 'success' ? '✅' : (type === 'timeout' ? '⏳' : '🚨');
 
-    item.innerHTML = `
-        <div class="alert-msg">${icon} ${alert.msg}</div>
-        <div class="alert-actions">
-            ${type === 'success' ? '<button class="view-btn">查看凭证</button>' : '<button class="jump-btn">跳转聊天</button>'}
-            <button class="close-btn">已知晓</button>
-        </div>
-        <div class="ticket-view-area" style="display: none;"></div>
-    `;
-
+    // 成功通知:直接展示影票信息
     if (type === 'success') {
-        const viewBtn = item.querySelector('.view-btn');
-        const viewArea = item.querySelector('.ticket-view-area');
-        viewBtn.onclick = () => {
-            const isVisible = viewArea.style.display === 'block';
-            viewArea.style.display = isVisible ? 'none' : 'block';
-            viewBtn.innerText = isVisible ? '查看凭证' : '隐藏凭证';
+        // 构建影票信息卡片
+        let ticketHTML = `
+            <div class="alert-msg">${icon} ${alert.msg}</div>
+            <div class="ticket-card">
+        `;
 
-            if (!isVisible && !viewArea.innerHTML) {
-                // Render ticket details
-                let html = '<strong>客票凭证详情：</strong>';
-                if (alert.itemInfo.ticket_code) {
-                    html += `<div class="ticket-code-display">${alert.itemInfo.ticket_code}</div>`;
-                }
-                if (alert.itemInfo.ticket_image) {
-                    const imgs = Array.isArray(alert.itemInfo.ticket_image) ? alert.itemInfo.ticket_image : [alert.itemInfo.ticket_image];
-                    imgs.forEach(src => {
-                        html += `<img src="${src}" class="ticket-preview-img" onclick="window.open('${src}')" title="点击查看原图">`;
-                    });
-                }
-                viewArea.innerHTML = html;
-            }
-        };
+        // 提取码显示(最重要)
+        if (alert.itemInfo.ticket_code) {
+            const codes = Array.isArray(alert.itemInfo.ticket_code)
+                ? alert.itemInfo.ticket_code
+                : [alert.itemInfo.ticket_code];
+            ticketHTML += '<div class="ticket-code-section">';
+            ticketHTML += '<div class="ticket-label">票票凭证号:</div>';
+            codes.forEach(code => {
+                ticketHTML += `<div class="ticket-code-display">${code}</div>`;
+            });
+            ticketHTML += '</div>';
+        }
+
+        // 二维码显示
+        if (alert.itemInfo.ticket_image) {
+            const imgs = Array.isArray(alert.itemInfo.ticket_image)
+                ? alert.itemInfo.ticket_image
+                : [alert.itemInfo.ticket_image];
+            ticketHTML += '<div class="ticket-qr-section">';
+            imgs.forEach(src => {
+                ticketHTML += `<img src="${src}" class="ticket-qr-img" onclick="window.open('${src}')" title="点击查看原图">`;
+            });
+            ticketHTML += '</div>';
+        }
+
+        ticketHTML += '</div>';
+
+        // 操作按钮
+        ticketHTML += `
+            <div class="alert-actions">
+                <button class="close-btn">已知晓</button>
+            </div>
+        `;
+
+        item.innerHTML = ticketHTML;
+
     } else {
+        // 失败/超时通知:保持原样
+        item.innerHTML = `
+            <div class="alert-msg">${icon} ${alert.msg}</div>
+            <div class="alert-actions">
+                <button class="jump-btn">跳转聊天</button>
+                <button class="close-btn">已知晓</button>
+            </div>
+        `;
+
         item.querySelector('.jump-btn').onclick = () => {
             SafeChrome.sendMessage({
                 type: 'JUMP_TO_CHAT',

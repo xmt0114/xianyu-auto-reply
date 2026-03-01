@@ -98,86 +98,63 @@ function calculateOrderStrategy(previewData) {
     console.log(`[XianyuTool] Strategy Check: diffMin=${diffMin.toFixed(2)}`);
 
     if (diffMin < 5) {
-        throw new Error('距离开场不足 5 分钟，系统无法保时出票，已拦截下单。');
+        throw new Error('距离开场不足 5 分钟,系统无法保时出票,已拦截下单。');
     }
 
-    // Prepare all candidate modes with their costs and user quotes
-    const candidates = [];
+    // 策略优先级:时间优先,不进行价格对比
+    // 1. 特惠放单 (≥40分钟) - 优先级最高
+    // 2. 快速放单 (≥20分钟) - 次优先
+    // 3. 极速放单 (≥5分钟)  - 兜底方案
 
-    // 1. Discount Mode (Only for > 40 min AND has range data)
+    // 策略1: 特惠放单 (时间充足,成本最低)
     if (diffMin >= 40 && Array.isArray(previewData.discount_range) && previewData.discount_range.length > 0) {
         const minRange = Math.min(...previewData.discount_range.map(r => parseFloat(r.range) || 1));
-        const cost = parseFloat((parseFloat(previewData.original_fee) * minRange).toFixed(2));
-        if (!isNaN(cost)) {
-            candidates.push({
+        const estimatedCost = parseFloat((parseFloat(previewData.original_fee) * minRange).toFixed(2));
+
+        if (!isNaN(estimatedCost)) {
+            console.log(`[XianyuTool] 选择特惠放单 (时间充足: ${diffMin.toFixed(1)}分钟, 预估成本: ¥${estimatedCost})`);
+            return {
                 order_type: 0,
-                cost: cost,
-                premium_price: 1, // Fixed: Changed from 2 to 1 as requested
-                user_quote: parseFloat(((cost + 1) * 1.04).toFixed(2)),
-                mode_name: '特惠放单'
-            });
+                open_quote_price: estimatedCost.toFixed(2),
+                premium_price: 1,
+                mode_name: '特惠放单',
+                // 报价策略: 预估成本 × 1.15 (可手动调整此倍数)
+                user_quote: parseFloat((estimatedCost * 1.15).toFixed(2))
+            };
         }
     }
 
-    // 2. Fast Mode (Only for > 20 min AND has price)
+    // 策略2: 快速放单 (时间适中)
     if (diffMin >= 20 && previewData.fast_ticket_total_price) {
         const cost = parseFloat(previewData.fast_ticket_total_price);
         if (!isNaN(cost)) {
-            candidates.push({
+            console.log(`[XianyuTool] 选择快速放单 (时间: ${diffMin.toFixed(1)}分钟, 成本: ¥${cost})`);
+            return {
                 order_type: 1,
-                cost: cost,
+                open_quote_price: cost.toFixed(2),
                 premium_price: 0,
-                user_quote: parseFloat((cost * 1.04).toFixed(2)),
-                mode_name: '快速放单'
-            });
+                mode_name: '快速放单',
+                user_quote: parseFloat((cost * 1.04).toFixed(2))
+            };
         }
     }
 
-    // 3. Rapid Mode (Only for > 5 min AND has price)
+    // 策略3: 极速放单 (时间紧急)
     if (diffMin >= 5 && previewData.rapid_ticket_total_price) {
         const cost = parseFloat(previewData.rapid_ticket_total_price);
         if (!isNaN(cost)) {
-            candidates.push({
+            console.log(`[XianyuTool] 选择极速放单 (时间紧急: ${diffMin.toFixed(1)}分钟, 成本: ¥${cost})`);
+            return {
                 order_type: 2,
-                cost: cost,
+                open_quote_price: cost.toFixed(2),
                 premium_price: 0,
-                user_quote: parseFloat((cost * 1.04).toFixed(2)),
-                mode_name: '极速放单'
-            });
+                mode_name: '极速放单',
+                user_quote: parseFloat((cost * 1.04).toFixed(2))
+            };
         }
     }
 
-    if (candidates.length === 0) {
-        throw new Error('当前剩余时间或平台数据无法匹配任何放单模式');
-    }
-
-    // Sorting and Selection Logic
-    // Find the absolute lowest user quote
-    const sortedByPrice = [...candidates].sort((a, b) => a.user_quote - b.user_quote);
-    const absoluteLowest = sortedByPrice[0];
-
-    // Check if Discount mode is available and price gap is "not large" (e.g. within 1.0 RMB)
-    const discountOption = candidates.find(c => c.order_type === 0);
-    const PREFERENCE_THRESHOLD = 1.0;
-
-    let selected = absoluteLowest;
-    if (discountOption && discountOption !== absoluteLowest) {
-        const gap = discountOption.user_quote - absoluteLowest.user_quote;
-        if (gap <= PREFERENCE_THRESHOLD) {
-            console.log(`[XianyuTool] Discount mode selected due to preference (Gap: ${gap.toFixed(2)} <= ${PREFERENCE_THRESHOLD})`);
-            selected = discountOption;
-        }
-    }
-
-    console.log('[XianyuTool] Selected Strategy:', selected);
-
-    return {
-        order_type: selected.order_type,
-        open_quote_price: selected.cost.toFixed(2),
-        premium_price: selected.premium_price,
-        mode_name: selected.mode_name,
-        user_quote: selected.user_quote.toFixed(2)
-    };
+    throw new Error('当前剩余时间或平台数据无法匹配任何放单模式');
 }
 
 // --- TaskRunner Class ---
